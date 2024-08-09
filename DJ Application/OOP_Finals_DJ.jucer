@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Ts3bE5" name="OOP_Finals_DjApp_V3" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              defines="JUCE_MODAL_LOOPS_PERMITTED=1">
+  <MAINGROUP id="DdATCU" name="OOP_Finals_DjApp_V3">
+    <GROUP id="{F87408BF-1F15-CDA5-EEBF-B60BF0CC40CF}" name="Source">
+      <FILE id="qEDRmb" name="Customisation.cpp" compile="1" resource="0"
+            file="Source/Customisation.cpp"/>
+      <FILE id="g6ZuFK" name="Customisation.h" compile="0" resource="0" file="Source/Customisation.h"/>
+      <FILE id="c43fAM" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent.cpp"/>
+      <FILE id="sjYxyR" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="xSSFLL" name="DeckGUI.cpp" compile="1" resource="0" file="Source/DeckGUI.cpp"/>
+      <FILE id="LE81Iq" name="DeckGUI.h" compile="0" resource="0" file="Source/DeckGUI.h"/>
+      <FILE id="hUAhVl" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="UadWWN" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="HKZYCK" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="P9wxsz" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="ySwE3A" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="w0UyXg" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="xQZBuo" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../../../Downloads/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
